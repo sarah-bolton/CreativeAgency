@@ -1,5 +1,4 @@
 ul, li {
-    text-decoration: none;
     color: $black;
     list-style: none;
     display: inline;
@@ -40,8 +39,7 @@ nav {
 
 h1 {
     display: inline;
-    justify-content: center;
-    margin: 146px;
+    margin: 0 146px;
 
 }
 

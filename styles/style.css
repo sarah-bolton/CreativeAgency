@@ -228,7 +228,6 @@ html {
 
 body {
   font-family: "Open Sans";
-  font-weight: normal;
   color: #333333;
 }
 
@@ -245,7 +244,6 @@ h1 {
 }
 
 ul, li {
-  text-decoration: none;
   color: #333333;
   list-style: none;
   display: inline;
@@ -292,10 +290,7 @@ nav {
 
 h1 {
   display: inline;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 146px;
+  margin: 0 146px;
 }
 
 .navIcons {
@@ -331,12 +326,72 @@ h1 {
   font-size: 8px;
 }
 
-header {
+.headerHome {
   background-image: url("../assets/home-1.jpeg");
   height: 100vh;
   width: 100%;
   background-position: center;
-  background-repeat: none;
   background-size: cover;
-  margin: 0 auto;
+}
+
+.footer {
+  background: #333333;
+  color: #f6f6f6;
+}
+
+.footer li {
+  color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footerFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer2 {
+  background: #333333;
+  color: #f6f6f6;
+}
+
+.sectionOneHome {
+  background-color: #c3dab7;
+  height: 85vh;
+  width: 100vw;
+}
+
+.sectionOneImgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.brandCircleImg {
+  position: relative;
+  top: -85px;
+  left: 120px;
+  height: 200px;
+  width: 200px;
+  z-index: 20;
+}
+
+.desktopImg {
+  height: 25%;
+  width: 25%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 10;
 }

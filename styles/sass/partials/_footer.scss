@@ -1,6 +1,13 @@
 .footer {
     background: $black;
     color: $white2;
+    padding: 80px 0;
+}
+
+.footer H3 {
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 20px;
 }
 
 .footer li {
@@ -11,34 +18,79 @@
 
 .footerFlexContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.contactContainer {
-    
+.recentFooter li {
+    display: list-item;
 }
 
-.contactFooter {
-    
+.contactFooter, .recentFooter {
+    margin: 0 auto;
+    padding: 0 0 20px;
+    line-height: 20px;
 }
 
-.footerIcons {
-
+.fa-brands {
+    padding-right: 10px;
 }
 
-.recentFooter {
-
-}
-
-.recentContainer {
-
+.recentContainer H3 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
 .twitterFooter {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
 }
+
+.twitterH3, .footerForm {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.twitterH3 {
+    margin: 0 0 20px;
+}
+
+// FORM
+
+.footerButton {
+    background-color: $sage;
+    border: none;
+    height: 35px;
+    width: 40px;
+}
+
+input {
+    height: 35px;
+    width: 165px;
+    border: none;
+    padding: 0 10px;
+}
+::placeholder {
+    font-family: $bodyFont;
+    color: $black;
+    font-size: 11px;
+    }
+// https://www.codeinwp.com/snippets/change-placeholder-styles-html-inputs-with-css/ for placeholder help
 
 .footer2 {
     background: $black;
     color: $white2;
+}
+
+.footer2H3 {
+    font-size: 11px;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 4px;
+    font-weight: lighter;
+    border-top: 0.2px solid rgb(88, 88, 88)
 }

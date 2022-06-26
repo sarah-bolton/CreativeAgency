@@ -157,7 +157,7 @@
                 </div>
                 <div class="recentContainer">
                     <ul class="recentFooter">
-                        <li><h3>RECENT POSTS</h3></li>
+                        <h3 class="recentH3">RECENT POSTS</h3>
                         <li>Conversion hackathon partner</li>
                         <li>Network channels entrepreneur</li>
                         <li>Return on investment creative</li>
@@ -167,16 +167,22 @@
                 </div>
 
                 <div class="twitterFooter">
-                    <h3>TWITTER WIDGET</h3>
-                    <p>Sign up for emails and notifications below.</p>
-                    <form action=""></form>
+                    <ul class="emailFooter">
+                        <li><h3 class="twitterH3">TWITTER WIDGET</h3></li>
+                        <li>Sign up for emails and notifications below.</li>
+                    </ul>
+                    <form action="submit" class="footerForm">
+                        <label for="email"></label>
+                        <input type="email" placeholder="Enter your email" name="email" id="email">
+                        <button type="submit" class="footerButton"><i class="fa-solid fa-right-long"></i></button>
+                    </form>
                 </div>
             </div>
         </div> <!-- end of footer wrapper -->
     </div>
 
     <div class="footer2">
-        <h3>CREATIVE AGENCY</h3>
+        <h3 class="footer2H3">CREATIVE AGENCY</h3>
     </div>
 
 </body>

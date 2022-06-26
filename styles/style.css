@@ -243,14 +243,13 @@ h1 {
   margin: 0 auto;
 }
 
-ul, li {
+nav ul, li {
   color: #333333;
-  list-style: none;
   display: inline;
   font-size: 12px;
 }
 
-li {
+nav li {
   padding-right: 20px;
 }
 
@@ -337,6 +336,13 @@ h1 {
 .footer {
   background: #333333;
   color: #f6f6f6;
+  padding: 80px 0;
+}
+
+.footer H3 {
+  font-size: 14px;
+  font-weight: normal;
+  padding-bottom: 20px;
 }
 
 .footer li {
@@ -354,14 +360,123 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.recentFooter li {
+  display: list-item;
+}
+
+.contactFooter, .recentFooter {
+  margin: 0 auto;
+  padding: 0 0 20px;
+  line-height: 20px;
+}
+
+.fa-brands {
+  padding-right: 10px;
+}
+
+.recentContainer H3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.twitterFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.twitterH3, .footerForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-top: 10px;
+}
+
+.twitterH3 {
+  margin: 0 0 20px;
+}
+
+.footerButton {
+  background-color: #c3dab7;
+  border: none;
+  height: 35px;
+  width: 40px;
+}
+
+input {
+  height: 35px;
+  width: 165px;
+  border: none;
+  padding: 0 10px;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Open Sans";
+  color: #333333;
+  font-size: 11px;
+}
+
+::-moz-placeholder {
+  font-family: "Open Sans";
+  color: #333333;
+  font-size: 11px;
+}
+
+:-ms-input-placeholder {
+  font-family: "Open Sans";
+  color: #333333;
+  font-size: 11px;
+}
+
+::-ms-input-placeholder {
+  font-family: "Open Sans";
+  color: #333333;
+  font-size: 11px;
+}
+
+::placeholder {
+  font-family: "Open Sans";
+  color: #333333;
+  font-size: 11px;
 }
 
 .footer2 {
   background: #333333;
   color: #f6f6f6;
+}
+
+.footer2H3 {
+  font-size: 11px;
+  margin: 0;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  border-top: 0.2px solid rgb(88, 88, 88);
 }
 
 .sectionOneHome {

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/90cf4691ea.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet"> 
@@ -27,9 +28,12 @@
                         <li>Fax: +00 (9) 643 6543 898</li>
                     </ul>
                     <div class="footerIcons">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                            <span class="sr-only"></span>
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only"></span>
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only"></span>
                     </div>
                 </div>
                 <div class="recentContainer">
@@ -51,7 +55,8 @@
                     <form action="submit" class="footerForm">
                         <label for="email"></label>
                         <input type="email" placeholder="Enter your email" name="email" id="email">
-                        <button type="submit" class="footerButton"><i class="fa-solid fa-right-long"></i></button>
+                        <button type="submit" class="footerButton"><i class="fa-solid fa-right-long" aria-hidden="true"></i>
+                        <span class="sr-only"></span></button>
                     </form>
                 </div>
             </div>

@@ -53,19 +53,23 @@
 <!-- SECTION ONE -->
 
     <div class="sectionOneHome">
-        <div class="sectionOneImgs">
-            <img src="./assets/home-circle-text.png" alt="decorative branding text" class="brandCircleImg">
-            <img src="./assets/home-2.jpeg" alt="office set up with mac desktop" class="desktopImg">
-        </div>
-        
-        <div class="brandingP">
-            <h3>BRANDING</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, repudiandae.</p>
-        </div>
+        <div class="wrapper">
+            <div class="sectionOneImgs">
+                <img src="./assets/home-circle-text.png" alt="decorative branding text" class="brandCircleImg">
+                <img src="./assets/home-2.jpeg" alt="office set up with mac desktop" class="desktopImg">
+            </div>
+            
+            <div class="brandingFlexContainer">
+                <div class="brandingP">
+                    <h3>BRANDING</h3>
+                    <p class="brandingP2">Venture first mover advantage incubator metrics focus backing business-to-consumer.</p>
+                </div>
 
-        <div class="design">
-            <h3>DESIGN & DEVELOPMENT</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, voluptates!</p>
+                <div class="design">
+                    <h3>DESIGN & DEVELOPMENT</h3>
+                    <p class="designP">Venture first mover advantage incubator metrics focus backing business-to-consumer.</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -74,23 +78,23 @@
     <div class="sectionTwoHome">
         <div class="wrapper">
             <div class="galleryHome">
-                <i class="fa-solid fa-angle-left"></i>
+                <i class="fa-solid fa-angle-left fa-2x"></i>
                 <img src="./assets/home-3.jpeg" alt="man in a magazine" class="magazineImg">
-                <i class="fa-solid fa-angle-right"></i>
+                <i class="fa-solid fa-angle-right fa-2x"></i>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum consectetur tenetur id beatae nobis natus in provident. Illum incidunt explicabo veritatis quae totam similique unde laborum, enim voluptate necessitatibus!</p>
+            <p class="galleryP">Ecosystem iPad disruptive social media low hanging fruit stealth launch party handshake market branding. Pitch agile developement business plan stealth channels prototype mass market product management value proposition startup strategy. Product management early adopters user experience metrics advisor gamification responsive web design hackathon termsheet backing series.</p>
         </div>
     </div>
 
 <!-- SECTION THREE -->
 
     <div class="sectionThreeHome">
-        <i class="fa-solid fa-wand-magic-sparkles"></i>
-        <i class="fa-solid fa-map-pin"></i>
-        <i class="fa-solid fa-display"></i>
-        <i class="fa-solid fa-bag-shopping"></i>
-        <i class="fa-solid fa-sliders"></i>
-        <i class="fa-solid fa-face-smile"></i>
+        <i class="fa-solid fa-wand-magic-sparkles fa-2x"></i>
+        <i class="fa-solid fa-map-pin fa-2x"></i>
+        <i class="fa-solid fa-display fa-2x"></i>
+        <i class="fa-solid fa-bag-shopping fa-2x"></i>
+        <i class="fa-solid fa-sliders fa-2x"></i>
+        <i class="fa-solid fa-face-smile fa-2x"></i>
 
         <h3>UNIQUE DESIGN</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nobis!</p>
@@ -150,9 +154,12 @@
                         <li>Fax: +00 (9) 643 6543 898</li>
                     </ul>
                     <div class="footerIcons">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
                     </div>
                 </div>
                 <div class="recentContainer">
@@ -174,7 +181,8 @@
                     <form action="submit" class="footerForm">
                         <label for="email"></label>
                         <input type="email" placeholder="Enter your email" name="email" id="email">
-                        <button type="submit" class="footerButton"><i class="fa-solid fa-right-long"></i></button>
+                        <button type="submit" class="footerButton"><i class="fa-solid fa-right-long" aria-hidden="true"></i>
+                        <span class="sr-only"></span></button>
                     </form>
                 </div>
             </div>

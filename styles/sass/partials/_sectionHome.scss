@@ -61,6 +61,7 @@
     font-style: italic;
     padding: 20px 190px;
     line-height: 20px;
+    margin-bottom: 60px;
 }
 
 .fa-angle-left {
@@ -77,18 +78,144 @@
 
 // SECTION THREE
 
-.sectionThreeHome i {
-    border: 2px solid $black;
-    border-radius: 50%;
-    padding: 25px;
-    width: 50px;
-    height: 50px;
+.sectionThreeHome {
+    background-image: url(../../../assets/home-4.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flexContainerGrid {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: 170px;
+    right: -150px;
+}
+
+.sectionThreeGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc(70%)
+}
+
+.options {
+    width: 210px;
+    margin-right: 40px;
+}
+
+.options H3 {
+    font-size: 16px;
+}
+
+.options p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 40px
+}
+
+.sectionThreeGrid {
+    i::before {
+        border: 2px solid $black;
+        border-radius: 50%;
+        padding: 25px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 15px 0 0;
+    }
+}
+
+// SECTION FOUR
+
+.sectionFourHome H2 {
+    font-size: 18px;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.staff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.staff li {
+    margin-bottom: 20px;
+}
+
+.team0 {
+    background-color: $white2;
+    width: 424px;
+    height: 200px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 20px;
+}
+
+.team6 {
+    width: 200px;
+    height: 200px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 40px;
+    line-height: 20px;
 }
 
-.sectionThreeHome {
-    background-image: url(../../../assets/home-4.jpeg);
+.staff img {
+    height: 200px;
+    width: 200px;
 }
+
+.team3, .team4, .team5, .team6 {
+    padding-bottom: 80px;
+}
+
+// SECTION FIVE
+.section5Container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolioInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $sage;
+    text-align: center;
+}
+
+.portfolioInfo p {
+    padding: 20px 170px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.portfolioInfo H2 {
+    font-size: 18px;
+}
+
+.portfolioImg {
+    height: auto;
+    width: 50vw;
+}
+
+.portfolioButton {
+    background-color: $white;
+    border: none;
+    font-size: 12px;
+    padding: 15px 20px;
+}
+
+
+
+
+

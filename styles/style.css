@@ -557,6 +557,7 @@ input {
   font-style: italic;
   padding: 20px 190px;
   line-height: 20px;
+  margin-bottom: 60px;
 }
 
 .fa-angle-left {
@@ -571,12 +572,58 @@ input {
   left: -35px;
 }
 
-.sectionThreeHome i {
+.sectionThreeHome {
+  background-image: url(../../../assets/home-4.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.flexContainerGrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  position: relative;
+  top: 170px;
+  right: -150px;
+}
+
+.sectionThreeGrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+}
+
+.options {
+  width: 210px;
+  margin-right: 40px;
+}
+
+.options H3 {
+  font-size: 16px;
+}
+
+.options p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.sectionThreeGrid i::before {
   border: 2px solid #333333;
   border-radius: 50%;
   padding: 25px;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,8 +633,118 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 15px 15px 0 0;
 }
 
-.sectionThreeHome {
-  background-image: url(../../../assets/home-4.jpeg);
+.sectionFourHome H2 {
+  font-size: 18px;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.staff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.staff li {
+  margin-bottom: 20px;
+}
+
+.team0 {
+  background-color: #f6f6f6;
+  width: 424px;
+  height: 200px;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  line-height: 20px;
+}
+
+.team6 {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+  line-height: 20px;
+}
+
+.staff img {
+  height: 200px;
+  width: 200px;
+}
+
+.team3, .team4, .team5, .team6 {
+  padding-bottom: 80px;
+}
+
+.section5Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portfolioInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #c3dab7;
+  text-align: center;
+}
+
+.portfolioInfo p {
+  padding: 20px 170px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.portfolioInfo H2 {
+  font-size: 18px;
+}
+
+.portfolioImg {
+  height: auto;
+  width: 50vw;
+}
+
+.portfolioButton {
+  background-color: #ffffff;
+  border: none;
+  font-size: 12px;
+  padding: 15px 20px;
 }

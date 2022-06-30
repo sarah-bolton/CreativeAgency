@@ -18,7 +18,7 @@
 
 .footerFlexContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .recentFooter li {
@@ -62,22 +62,25 @@
 .footerButton {
     background-color: $sage;
     border: none;
-    height: 35px;
+    height: 34px;
     width: 40px;
 }
 
 input {
     height: 35px;
-    width: 165px;
     border: none;
-    padding: 0 10px;
 }
 ::placeholder {
     font-family: $bodyFont;
-    color: $black;
+    color: rgb(175, 175, 175);
     font-size: 11px;
+    padding: 0 10px;
     }
 // https://www.codeinwp.com/snippets/change-placeholder-styles-html-inputs-with-css/ for placeholder help
+
+#email {
+    width: 65%;
+}
 
 .footer2 {
     background: $black;

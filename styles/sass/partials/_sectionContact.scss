@@ -1,0 +1,59 @@
+.commentForm H2 {
+    font-family: $headingFont;
+    margin: 80px 0 20px;
+}
+
+input {
+    width: 90%;
+    padding: 0;
+} 
+
+#name {
+    border-bottom: 1px solid $white2;
+    margin-right: 20px;
+    &::placeholder {
+        color: rgb(175, 175, 175)
+    }
+}
+
+#email {
+    border-bottom: 1px solid $black;
+}
+
+#subject {
+    border-bottom: 1px solid $white2;
+    margin-left: 20px;
+    &::placeholder {
+        color: rgb(175, 175, 175)
+    }
+}
+
+.sectionForm {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+#message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    font-family: $bodyFont;
+    font-size: 11px;
+    border-bottom: 1px solid $white2;
+    margin-bottom: 30px;
+    color: rgb(175, 175, 175);
+    resize: none; // stack overflow help 
+}
+
+.blogButton {
+    font-family: $bodyFont;
+    font-size: 11px;
+    border: none;
+    border-bottom: 1px solid $black;
+    background: none;
+    margin-bottom: 100px;
+    padding: 0 0 5px;
+}
+

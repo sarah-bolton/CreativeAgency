@@ -1,0 +1,231 @@
+// SECTION ONE
+
+.blogTitleH2 {
+    font-size: 50px;
+    font-family: $headingFont;
+    margin-bottom: 20px;
+}
+
+.blogTitle p {
+    font-size: 12px;
+}
+
+.alexImg {
+    border-radius: 50%;
+    width: 55px;
+}
+
+.articleInfo {
+    display: flex;
+    margin-top: 60px;
+    border-bottom: 2px solid $white2;
+}
+
+.articleInfo H3 {
+    margin: 10px 0;
+}
+
+.articleInfo ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.articleInfoList {
+    display: inline;
+}
+
+.articleLi2 {
+    margin-left: 25px;
+}
+
+li p {
+    font-size: 10px;
+    color: rgb(175, 175, 175);
+}
+
+.articleInfoList2 {
+    display: flex;
+    margin-left: auto;
+    padding-left: 20px;
+}
+
+.articleInfoList2 li {
+    padding-left: 95px;
+}
+
+.blogTitle p {
+    color: rgb(175, 175, 175);
+}
+
+.blogPBold {
+    font-size: 12px;
+    color: $black;
+    margin-top: 40px;
+    line-height: 20px;
+}
+
+.blogPostExample {
+    font-size: 12px;
+    line-height: 20px;
+    color:rgb(175, 175, 175);
+}
+
+.blogIcons {
+    display: flex;
+    padding-left: 0;
+    margin: 30px 0 80px;
+}
+
+.blogIcons H3 {
+    padding-right: 15px;
+    margin: 0;
+}
+
+// SECTION TWO
+
+.relatedPosts H2 {
+    font-family: $headingFont;
+    margin-bottom: 20px;
+}
+
+.horizontalLine {
+    border-top: 2px solid $white2;
+    margin-bottom: 40px;
+}
+
+.relatedPostsList {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.relatedPosts li {
+    display: flex;
+    flex-direction: column;
+    width: calc( (100% / 3) - 20px );
+    padding: 0;
+}
+
+// SECTION THREE
+
+.commentSection H2 {
+    font-family: $headingFont;
+    margin-top: 60px;
+}
+
+.commentSection img {
+    width: 60px;
+}
+
+.comment2 {
+    margin: 20px 0;
+}
+
+.commentText {
+    display: inline-block;
+    position: relative;
+    background: $white2;
+    padding: 20px;
+    margin-left: 38px;
+    width: 89%;
+}
+    
+.commentText:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 26%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-right-color: $white2;
+        border-left: 0;
+        border-top: 0;
+        margin-top: -10px;
+        margin-left: -20px;
+}
+// speech bubble help from https://projects.verou.me/bubbly/
+
+.username, .reply {
+    display: inline;
+    font-size: 11px;
+}
+
+.reply {
+    font-style: italic;
+    color: rgb(175, 175, 175);
+}
+
+.comment {
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+.date {
+    font-size: 10px;
+    margin: 10px 0;
+    color:rgb(175, 175, 175)
+}
+
+// SECTION FOUR
+
+.commentForm H2 {
+    font-family: $headingFont;
+    margin: 80px 0 20px;
+}
+
+input {
+    width: 90%;
+    padding: 0;
+} 
+
+#name {
+    border-bottom: 1px solid $white2;
+    margin-right: 20px;
+    &::placeholder {
+        color: rgb(175, 175, 175)
+    }
+}
+
+#email {
+    border-bottom: 1px solid $black;
+}
+
+#subject {
+    border-bottom: 1px solid $white2;
+    margin-left: 20px;
+    &::placeholder {
+        color: rgb(175, 175, 175)
+    }
+}
+
+.sectionForm {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+#message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    font-family: $bodyFont;
+    font-size: 11px;
+    border-bottom: 1px solid $white2;
+    margin-bottom: 30px;
+    color: rgb(175, 175, 175);
+    resize: none; // stack overflow help 
+}
+
+.blogButton {
+    font-family: $bodyFont;
+    font-size: 11px;
+    border: none;
+    border-bottom: 1px solid $black;
+    background: none;
+    margin-bottom: 100px;
+    padding: 0 0 5px;
+}
+

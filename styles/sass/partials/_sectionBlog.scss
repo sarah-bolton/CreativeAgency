@@ -72,12 +72,16 @@ li p {
 
 .blogIcons {
     display: flex;
-    padding-left: 0;
-    margin: 30px 0 80px;
+    padding: 0;
+    margin: 20px 0 80px;
+}
+
+.fa-brands {
+    padding: 0 10px 0 0;
 }
 
 .blogIcons H3 {
-    padding-right: 15px;
+    padding-right: 10px;
     margin: 0;
 }
 

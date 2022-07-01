@@ -1,8 +1,16 @@
+.vl1 {
+    border-left: 1px solid $black;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    z-index: 10;
+}
+
 // SECTION ONE
 
 .sectionOneHome {
     background-color: $sage;
-    height: 85vh;
+    height: 610px;
     width: 100vw;
 }
 
@@ -12,7 +20,7 @@
     left: 205px;
     height: 180px;
     width: 180px;
-    z-index: 10;
+
 }
 
 .desktopImg {
@@ -130,6 +138,10 @@
 }
 
 // SECTION FOUR
+
+.vl2 {
+
+}
 
 .sectionFourHome H2 {
     font-size: 18px;

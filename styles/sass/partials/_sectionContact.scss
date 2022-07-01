@@ -1,3 +1,63 @@
+// SECTION ONE
+
+.contactImg1 {
+    width: 100%;
+    margin: 0 0 70px;
+}
+
+.contactUsH2 {
+    font-size: 45px;
+    font-family: $headingFont;
+    width: 20%;
+    line-height: 55px;
+    position: absolute;
+    top: 140px;
+}
+
+// SECTION 2
+
+.contactDetails H3, .contactP H3 {
+    font-size: 14px;
+    margin: 40px 0 20px;
+}
+
+.contactDetails p, .contactP p {
+    font-size: 11px;
+    line-height: 20px;
+    color: rgb(175, 175, 175);
+    margin: 30px 0 30px;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0;
+}
+
+.detailsContainer {
+    padding: 20px 30px 20px;
+    margin: 0 auto;
+}
+
+.detailsContainer H3 {
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+
+.detailsContainer p {
+    font-size: 10px;
+    line-height: 18px;
+    color: rgb(175, 175, 175);
+}
+
+.vl {
+    border-left: 1px solid $white2;
+    height: 150px;
+}
+
+// SECTION THREE
+
 .commentForm H2 {
     font-family: $headingFont;
     margin: 80px 0 20px;
@@ -47,7 +107,7 @@ input {
     resize: none; // stack overflow help 
 }
 
-.blogButton {
+.contactButton {
     font-family: $bodyFont;
     font-size: 11px;
     border: none;
@@ -55,5 +115,10 @@ input {
     background: none;
     margin-bottom: 100px;
     padding: 0 0 5px;
+}
+
+.contactImg2 {
+    width: 100vw;
+    display: block;
 }
 

@@ -15,7 +15,7 @@
 
 <!-- HEADER / NAV -->
 
-    <header>
+    <header class="headerContact">
         <div class="wrapper">
             <nav>
                 <ul>
@@ -52,10 +52,10 @@
 
 <!-- SECTION ONE -->
 
-    <div class="contactUsBar">
-        <img src="./assets/contact-1.jpeg" alt="picture of a laptop keyboard" class="contactImg1">
-        <h2>_</h2>
-        <h2>CONTACT US</h2>
+    <img src="./assets/contact-1.jpeg" alt="picture of a laptop keyboard" class="contactImg1">
+        <div class="wrapper">
+            <h2 class="contactUsH2">CONTACT US</h2>
+        </div>
     </div>
 
 <!-- SECTION TWO -->
@@ -64,31 +64,46 @@
         <div class="contactDetails">
             <h3>CONTACT DETAILS</h3>
             <p>If you need any help, please contact us or send us an email or go to our forum.
-                We are sure that you can recieve our reply as soon as possible.</p>
+            <br>
+            We are sure that you can recieve our reply as soon as possible.</p>
         </div>
-        <div class="contactDetails2">
-            <div class="detailsContainer">
-                <h3>PHONE</h3>
-                <p>Phone 01: 123, 456 7890
-                    Phone 02: 345 678 9101
-                </p>
-            </div>
-            <div class="detailsContainer">
-                <h3>ADDRESS</h3>
-                <p>6591 Orchard Street, Toronto, Ontario</p>
-            </div>
-            <div class="detailsContainer">
-                <h3>EMAIL</h3>
-                <p>contact@creative.com
-                    info@creative.com
-                </p>
-            </div>
+        <div class="contactContainer">
+                <div class="detailsContainer">
+                    <i class="fa-solid fa-mobile-screen-button fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only"></span>
+                    <h3>PHONE</h3>
+                    <p>Phone 01: 123, 456 7890
+                        <br>
+                        Phone 02: 345 678 9101
+                    </p>
+                </div>
+                <div class="vl"></div>
+                <div class="detailsContainer">
+                    <i class="fa-solid fa-location-dot fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only"></span>
+                    <h3>ADDRESS</h3>
+                    <p>6591 Orchard Street, Toronto, Ontario</p>
+                </div>
+                <div class="vl"></div>
+                <div class="detailsContainer">
+                    <i class="fa-solid fa-envelope fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only"></span>
+                    <h3>EMAIL</h3>
+                    <p>contact@creative.com
+                        <br>
+                        info@creative.com
+                    </p>
+                </div>
         </div>
     </div>
 
 <!-- SECTION THREE -->
 
     <div class="wrapper">
+        <div class="contactP">
+            <h3>GET IN TOUCH WITH US</h3>
+            <p>If you have any questions, please don't hesitate to send us a message!</p>
+        </div>
             <form class="blogForm">  
                 <div class="sectionForm">
                     <label for="name" class="sr-only">Name</label>
@@ -101,9 +116,9 @@
                     <input type="text" id="subject" placeholder="Subject (optional)">
                 </div>
                     <label for="message" class="sr-only"></label>
-                    <textarea id="message" cols="30" rows="10" placeholder="Here goes your comment">Here goes your comment</textarea>
+                    <textarea id="message" cols="30" rows="10" placeholder="Here goes your comment">Here goes your message</textarea>
         
-                    <button type="submit" class="button blogButton">SUBMIT COMMENT</button>
+                    <button type="submit" class="button contactButton">SUBMIT MESSAGE</button>
                 </div>
             </form>
     </div>
@@ -115,7 +130,6 @@
     <div class="footer">
         <div class="wrapper">
             <div class="footerFlexContainer">
-                <div class="contactContainer">
                     <ul class="contactFooter">
                         <li><h3>CONTACT US</h3></li>
                         <li>6591 Orchard Street, NY 10002, United States</li>
@@ -123,13 +137,11 @@
                         <li>Phone 01: +00 (9) 123 3456 789</li>
                         <li>Phone 02: +00 (9) 123 3456 788</li>
                         <li>Fax: +00 (9) 643 6543 898</li>
-                    </ul>
-                    <div class="footerIcons">
+                        <br>
                         <i class="fa-brands fa-facebook-f" aria-hidden="true"><span class="sr-only"></span></i>
                         <i class="fa-brands fa-twitter" aria-hidden="true"><span class="sr-only"></span></i>
                         <i class="fa-brands fa-instagram" aria-hidden="true"><span class="sr-only"></span></i>
-                    </div>
-                </div>
+                    </ul>
                 <div class="recentContainer">
                     <ul class="recentFooter">
                         <h3 class="recentH3">RECENT POSTS</h3>

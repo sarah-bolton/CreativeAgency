@@ -28,6 +28,7 @@
 .articleInfo ul {
     display: flex;
     padding-left: 0;
+    list-style: none;
 }
 
 .articleInfoList {
@@ -39,8 +40,9 @@
 }
 
 li p {
-    font-size: 10px;
+    font-size: 11px;
     color: rgb(175, 175, 175);
+    list-style: none;
 }
 
 .articleInfoList2 {
@@ -74,6 +76,7 @@ li p {
     display: flex;
     padding: 0;
     margin: 20px 0 80px;
+    list-style: none;
 }
 
 .fa-brands {

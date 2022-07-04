@@ -10,11 +10,10 @@
 
 .sectionOneHome {
     background-color: $sage;
-    height: 610px;
-    width: 100vw;
 }
 
 .brandCircleImg {
+    display: inline;
     position: relative;
     top: 95px;
     left: 205px;
@@ -27,38 +26,49 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 38%;
+    width: 350px;
     margin: 0 auto;
 }
 
 .brandingFlexContainer {
     display: flex;
     justify-content: space-between;
-    padding: 30px 60px;
+    align-items: center;
+    padding: 30px 0px 80px;
     margin: 0 auto;
+    width: 70%;
 }
 
 .brandingFlexContainer H3 {
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+
+.brandingP, .design {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 20px 0 0;
 }
 
 .brandingP2, .designP {
     text-align: center;
     font-size: 11px;
-    padding: 0 60px;
     line-height: 20px;
 }
 // SECTION TWO
 
 .galleryHome {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 120px 0 10px
 }
 
 .magazineImg {
-    width: 23%;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -67,21 +77,24 @@
     color: rgb(175, 175, 175);
     text-align: center;
     font-style: italic;
-    padding: 20px 180px;
+    padding: 30px 0 100px;
     line-height: 20px;
-    margin-bottom: 80px;
+    margin: 0 auto;
+    width: 65%;
 }
 
 .fa-angle-left {
     position: relative;
     top: 150px;
     left: 35px;
+    padding: 0 30px;
 }
 
 .fa-angle-right {
     position: relative;
     top: 150px;
     left: -35px;
+    padding: 0 30px;
 }
 
 // SECTION THREE
@@ -90,7 +103,7 @@
     background-image: url(../assets/home-4.jpeg);
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .flexContainerGrid {
@@ -105,7 +118,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: calc(70%)
+    width: 70%;
 }
 
 .options {
@@ -139,7 +152,7 @@
 .sectionFourHome H2 {
     font-size: 18px;
     text-align: center;
-    margin: 70px 0;
+    margin: 80px 0;
 }
 
 .staff {
@@ -174,20 +187,20 @@
     line-height: 20px;
 }
 
+.staff {
+    padding-bottom: 80px;
+}
+
 .staff img {
     height: 200px;
     width: 200px;
-}
-
-.team3, .team4, .team5, .team6 {
-    padding-bottom: 80px;
 }
 
 // SECTION FIVE
 
 .section5Container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .portfolioInfo {
@@ -200,9 +213,10 @@
 }
 
 .portfolioInfo p {
-    padding: 20px 170px;
+    padding: 20px 0px;
     font-size: 11px;
     line-height: 20px;
+    width: 55%;
 }
 
 .portfolioInfo H2 {
@@ -210,8 +224,8 @@
 }
 
 .portfolioImg {
+    max-width: 50%;
     height: auto;
-    width: 50vw;
 }
 
 .portfolioButton {

@@ -12,23 +12,39 @@
     background-color: $sage;
 }
 
-.brandCircleImg {
-    display: inline;
+.sectionOneImgs {
     position: relative;
-    top: 95px;
-    left: 205px;
-    height: 180px;
-    width: 180px;
-
+    padding-top: 40px;
+    width: 70%;
 }
 
-.desktopImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    margin: 0 auto;
+// .brandCircleImg {
+//     display: inline;
+//     position: relative;
+//     top: 95px;
+//     left: 205px;
+//     height: 180px;
+//     width: 180px;
+// }
+
+.brandCircleD {
+    position: absolute;
+    top: 86px;
+    left: 10px;
+    z-index: 10;
 }
+
+.desktopImgD {
+    position: relative;
+}
+
+// .desktopImg {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 350px;
+//     margin: 0 auto;
+// }
 
 .brandingFlexContainer {
     display: flex;
@@ -99,53 +115,70 @@
 
 // SECTION THREE
 
+// .bgImg {
+//     height: 100vh;
+//     z-index: -10;
+//     position: relative;
+// }
+
 .sectionThreeHome {
     background-image: url(../assets/home-4.jpeg);
-    height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: none;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .flexContainerGrid {
     display: flex;
     justify-content: right;
-    position: relative;
-    top: 170px;
-    right: -150px;
+    align-items: center;
+    padding-top: 160px;
+    padding-left: 100px;
 }
 
 .sectionThreeGrid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 70%;
+    // position: absolute;
+    // top: 1970px;
+    // left: 700px;
+    width: 60%;
+    z-index: 10;
 }
 
 .options {
-    width: 210px;
+    display: flex;
+    width: 200px;
     margin-right: 40px;
+    width: 40%;
+    z-index: 10;
 }
 
-.options p {
+.options i {
+    border: 2px solid $black;
+    border-radius: 50%;
+    padding: 25px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px 0 0;
+}
+
+.optionInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.optionInfo p {
+    font-family: $bodyFont;
     font-size: 11px;
     color: rgb(175, 175, 175);
     line-height: 20px;
     margin-bottom: 40px
 }
 
-.sectionThreeGrid {
-    i::before {
-        border: 2px solid $black;
-        border-radius: 50%;
-        padding: 25px;
-        width: 30px;
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 15px 15px 0 0;
-    }
-}
 
 // SECTION FOUR
 
@@ -224,8 +257,7 @@
 }
 
 .portfolioImg {
-    max-width: 50%;
-    height: auto;
+    width: 50%;
 }
 
 .portfolioButton {
@@ -234,8 +266,3 @@
     font-size: 12px;
     padding: 15px 20px;
 }
-
-
-
-
-

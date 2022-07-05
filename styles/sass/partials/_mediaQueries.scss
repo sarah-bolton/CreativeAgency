@@ -85,6 +85,21 @@
         display: inline;
     }
 
+    // .sectionThreeHome {
+    //     width: 100%;
+    //     display: flex;
+    // }
+    
+    .sectionThreeGrid {
+        align-items: center;
+        margin: 0 auto;
+        background-color: $white;
+    }
+    
+    .optionInfo {
+        min-width: 100%;
+    }
+
     .staff {
         padding-bottom: 0;
     }
@@ -100,7 +115,8 @@
     }
 
     .portfolioImg {
-        width: 100%;
+        min-width: 100%;
+        height: auto;
     }
 
     .articleInfo {

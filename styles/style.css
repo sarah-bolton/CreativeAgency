@@ -259,6 +259,10 @@ h3 {
   font-size: 14px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .navRight, .navLeft {
   color: #333333;
   list-style: none;
@@ -615,6 +619,18 @@ input {
     display: inline;
   }
 
+  .sectionThreeGrid {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+
+  .optionInfo {
+    min-width: 100%;
+  }
+
   .staff {
     padding-bottom: 0;
   }
@@ -635,7 +651,8 @@ input {
   }
 
   .portfolioImg {
-    width: 100%;
+    min-width: 100%;
+    height: auto;
   }
 
   .articleInfo {
@@ -759,27 +776,21 @@ input {
   background-color: #c3dab7;
 }
 
-.brandCircleImg {
-  display: inline;
+.sectionOneImgs {
   position: relative;
-  top: 95px;
-  left: 205px;
-  height: 180px;
-  width: 180px;
+  padding-top: 40px;
+  width: 70%;
 }
 
-.desktopImg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 350px;
-  margin: 0 auto;
+.brandCircleD {
+  position: absolute;
+  top: 86px;
+  left: 10px;
+  z-index: 10;
+}
+
+.desktopImgD {
+  position: relative;
 }
 
 .brandingFlexContainer {
@@ -873,9 +884,9 @@ input {
 
 .sectionThreeHome {
   background-image: url(../assets/home-4.jpeg);
-  height: 100vh;
-  background-repeat: no-repeat;
+  background-repeat: none;
   background-size: cover;
+  min-height: 100vh;
 }
 
 .flexContainerGrid {
@@ -885,9 +896,11 @@ input {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
-  position: relative;
-  top: 170px;
-  right: -150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 160px;
+  padding-left: 100px;
 }
 
 .sectionThreeGrid {
@@ -896,25 +909,21 @@ input {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 70%;
+  width: 60%;
+  z-index: 10;
 }
 
 .options {
-  width: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
   margin-right: 40px;
+  width: 40%;
+  z-index: 10;
 }
 
-.options p {
-  font-size: 11px;
-  color: rgb(175, 175, 175);
-  line-height: 20px;
-  margin-bottom: 40px;
-}
-
-.sectionThreeGrid i::before {
+.options i {
   border: 2px solid #333333;
   border-radius: 50%;
   padding: 25px;
@@ -930,6 +939,24 @@ input {
       -ms-flex-align: center;
           align-items: center;
   margin: 15px 15px 0 0;
+}
+
+.optionInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.optionInfo p {
+  font-family: "Open Sans";
+  font-size: 11px;
+  color: rgb(175, 175, 175);
+  line-height: 20px;
+  margin-bottom: 40px;
 }
 
 .sectionFourHome H2 {
@@ -1035,8 +1062,7 @@ input {
 }
 
 .portfolioImg {
-  max-width: 50%;
-  height: auto;
+  width: 50%;
 }
 
 .portfolioButton {

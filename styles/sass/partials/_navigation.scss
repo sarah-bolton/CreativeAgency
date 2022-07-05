@@ -1,7 +1,7 @@
 .navRight, .navLeft {
     color: $black;
     list-style: none;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin: 23px 0 0;
     padding-left: 0;
 }
@@ -52,6 +52,6 @@ nav {
         border-radius: 50%;
         color: $black;
         text-align: center;
-        font-size: 8px;
+        font-size: 0.5rem;
     }
 }

@@ -1,13 +1,13 @@
 // SECTION ONE
 
 .blogTitleH2 {
-    font-size: 50px;
+    font-size: 3.125rem;
     font-family: $headingFont;
     margin-bottom: 20px;
 }
 
 .blogTitle p {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .alexImg {
@@ -36,7 +36,7 @@
 }
 
 li p {
-    font-size: 11px;
+    font-size: 0.688rem;
     color: rgb(175, 175, 175);
     list-style: none;
 }
@@ -56,14 +56,14 @@ li p {
 }
 
 .blogPBold {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: $black;
     margin-top: 40px;
     line-height: 20px;
 }
 
 .blogPostExample {
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 20px;
     color:rgb(175, 175, 175);
 }
@@ -106,8 +106,8 @@ li p {
 .relatedPosts li {
     display: flex;
     flex-direction: column;
-    width: 30%;
-    padding: 0;
+    min-width: 30%;
+    padding: 20px;
 }
 
 // SECTION THREE
@@ -152,7 +152,7 @@ li p {
 
 .username, .reply {
     display: inline;
-    font-size: 11px;
+    font-size: 0.688rem;
 }
 
 .reply {
@@ -161,12 +161,12 @@ li p {
 }
 
 .comment {
-    font-size: 11px;
+    font-size: 0.688rem;
     margin: 10px 0;
 }
 
 .date {
-    font-size: 10px;
+    font-size: 0.625rem;
     margin: 10px 0;
     color:rgb(175, 175, 175)
 }
@@ -212,7 +212,7 @@ input {
     width: 100%;
     border: none;
     font-family: $bodyFont;
-    font-size: 11px;
+    font-size: 0.688rem;
     border-bottom: 1px solid $white2;
     margin-bottom: 30px;
     color: rgb(175, 175, 175);
@@ -221,7 +221,7 @@ input {
 
 .blogButton {
     font-family: $bodyFont;
-    font-size: 11px;
+    font-size: 0.688rem;
     border: none;
     border-bottom: 1px solid $black;
     background: none;

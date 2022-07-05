@@ -5,7 +5,7 @@
 }
 
 .footer H3 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: normal;
     padding-bottom: 20px;
 }
@@ -14,7 +14,7 @@
     color: $white2;
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .footerFlexContainer {
@@ -74,7 +74,7 @@ input {
 ::placeholder {
     font-family: $bodyFont;
     color: rgb(175, 175, 175);
-    font-size: 11px;
+    font-size: 0.688rem;
     padding: 0 10px;
     }
 // https://www.codeinwp.com/snippets/change-placeholder-styles-html-inputs-with-css/ for placeholder help
@@ -89,7 +89,7 @@ input {
 }
 
 .footer2H3 {
-    font-size: 11px;
+    font-size: 0.688rem;
     margin: 0;
     padding: 50px;
     display: flex;

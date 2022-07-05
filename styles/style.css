@@ -248,7 +248,7 @@ body {
 }
 
 h1 {
-  font-size: 34px;
+  font-size: 2.125rem;
 }
 
 ul {
@@ -256,7 +256,7 @@ ul {
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 img {
@@ -266,7 +266,7 @@ img {
 .navRight, .navLeft {
   color: #333333;
   list-style: none;
-  font-size: 12px;
+  font-size: 0.75rem;
   margin: 23px 0 0;
   padding-left: 0;
 }
@@ -323,7 +323,7 @@ nav {
   border-radius: 50%;
   color: #333333;
   text-align: center;
-  font-size: 8px;
+  font-size: 0.5rem;
 }
 
 .headerHome {
@@ -348,7 +348,7 @@ nav {
 }
 
 .footer H3 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
   padding-bottom: 20px;
 }
@@ -362,7 +362,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .footerFlexContainer {
@@ -440,35 +440,35 @@ input {
 ::-webkit-input-placeholder {
   font-family: "Open Sans";
   color: rgb(175, 175, 175);
-  font-size: 11px;
+  font-size: 0.688rem;
   padding: 0 10px;
 }
 
 ::-moz-placeholder {
   font-family: "Open Sans";
   color: rgb(175, 175, 175);
-  font-size: 11px;
+  font-size: 0.688rem;
   padding: 0 10px;
 }
 
 :-ms-input-placeholder {
   font-family: "Open Sans";
   color: rgb(175, 175, 175);
-  font-size: 11px;
+  font-size: 0.688rem;
   padding: 0 10px;
 }
 
 ::-ms-input-placeholder {
   font-family: "Open Sans";
   color: rgb(175, 175, 175);
-  font-size: 11px;
+  font-size: 0.688rem;
   padding: 0 10px;
 }
 
 ::placeholder {
   font-family: "Open Sans";
   color: rgb(175, 175, 175);
-  font-size: 11px;
+  font-size: 0.688rem;
   padding: 0 10px;
 }
 
@@ -482,7 +482,7 @@ input {
 }
 
 .footer2H3 {
-  font-size: 11px;
+  font-size: 0.688rem;
   margin: 0;
   padding: 50px;
   display: -webkit-box;
@@ -584,11 +584,13 @@ input {
             align-items: center;
   }
 
-  .desktopImg {
-    display: inline;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .sectionOneImgs {
+    position: fixed;
+  }
+
+  .brandcircleImg {
+    position: relative;
+    height: auto;
   }
 
   .brandingFlexContainer {
@@ -764,33 +766,28 @@ input {
             justify-content: center;
   }
 }
-.vl1 {
-  border-left: 1px solid #333333;
-  width: 150px;
-  position: relative;
-  left: 50%;
-  z-index: 10;
-}
-
 .sectionOneHome {
   background-color: #c3dab7;
 }
 
 .sectionOneImgs {
   position: relative;
-  padding-top: 40px;
-  width: 70%;
+  padding-top: 170px;
+  margin: 0 auto;
 }
 
 .brandCircleD {
   position: absolute;
-  top: 86px;
-  left: 10px;
+  top: 80px;
+  left: 198px;
   z-index: 10;
+  width: 200px;
 }
 
 .desktopImgD {
   position: relative;
+  width: 350px;
+  margin: 0 auto;
 }
 
 .brandingFlexContainer {
@@ -838,7 +835,7 @@ input {
 
 .brandingP2, .designP {
   text-align: center;
-  font-size: 11px;
+  font-size: 0.688rem;
   line-height: 20px;
 }
 
@@ -858,7 +855,7 @@ input {
 }
 
 .galleryP {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgb(175, 175, 175);
   text-align: center;
   font-style: italic;
@@ -953,14 +950,14 @@ input {
 
 .optionInfo p {
   font-family: "Open Sans";
-  font-size: 11px;
+  font-size: 0.688rem;
   color: rgb(175, 175, 175);
   line-height: 20px;
   margin-bottom: 40px;
 }
 
 .sectionFourHome H2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: center;
   margin: 80px 0;
 }
@@ -1052,13 +1049,13 @@ input {
 
 .portfolioInfo p {
   padding: 20px 0px;
-  font-size: 11px;
+  font-size: 0.688rem;
   line-height: 20px;
   width: 55%;
 }
 
 .portfolioInfo H2 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .portfolioImg {
@@ -1068,18 +1065,18 @@ input {
 .portfolioButton {
   background-color: #ffffff;
   border: none;
-  font-size: 12px;
+  font-size: 0.75rem;
   padding: 15px 20px;
 }
 
 .blogTitleH2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-family: "Montserrat";
   margin-bottom: 20px;
 }
 
 .blogTitle p {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .alexImg {
@@ -1112,7 +1109,7 @@ input {
 }
 
 li p {
-  font-size: 11px;
+  font-size: 0.688rem;
   color: rgb(175, 175, 175);
   list-style: none;
 }
@@ -1134,14 +1131,14 @@ li p {
 }
 
 .blogPBold {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #333333;
   margin-top: 40px;
   line-height: 20px;
 }
 
 .blogPostExample {
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 20px;
   color: rgb(175, 175, 175);
 }
@@ -1193,8 +1190,8 @@ li p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 30%;
-  padding: 0;
+  min-width: 30%;
+  padding: 20px;
 }
 
 .commentSection H2 {
@@ -1236,7 +1233,7 @@ li p {
 
 .username, .reply {
   display: inline;
-  font-size: 11px;
+  font-size: 0.688rem;
 }
 
 .reply {
@@ -1245,12 +1242,12 @@ li p {
 }
 
 .comment {
-  font-size: 11px;
+  font-size: 0.688rem;
   margin: 10px 0;
 }
 
 .date {
-  font-size: 10px;
+  font-size: 0.625rem;
   margin: 10px 0;
   color: rgb(175, 175, 175);
 }
@@ -1327,7 +1324,7 @@ input {
   width: 100%;
   border: none;
   font-family: "Open Sans";
-  font-size: 11px;
+  font-size: 0.688rem;
   border-bottom: 1px solid #f6f6f6;
   margin-bottom: 30px;
   color: rgb(175, 175, 175);
@@ -1336,7 +1333,7 @@ input {
 
 .blogButton {
   font-family: "Open Sans";
-  font-size: 11px;
+  font-size: 0.688rem;
   border: none;
   border-bottom: 1px solid #333333;
   background: none;
@@ -1350,7 +1347,7 @@ input {
 }
 
 .contactUsH2 {
-  font-size: 45px;
+  font-size: 2.813rem;
   font-family: "Montserrat";
   width: 20%;
   line-height: 55px;
@@ -1359,12 +1356,12 @@ input {
 }
 
 .contactDetails H3, .contactP H3 {
-  font-size: 14px;
+  font-size: 0.875rem;
   margin: 40px 0 20px;
 }
 
 .contactDetails p, .contactP p {
-  font-size: 11px;
+  font-size: 0.688rem;
   line-height: 20px;
   color: rgb(175, 175, 175);
   margin: 30px 0 30px;
@@ -1386,13 +1383,13 @@ input {
 }
 
 .detailsContainer H3 {
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 4px;
   margin-top: 20px;
 }
 
 .detailsContainer p {
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 18px;
   color: rgb(175, 175, 175);
 }
@@ -1474,7 +1471,7 @@ input {
   width: 100%;
   border: none;
   font-family: "Open Sans";
-  font-size: 11px;
+  font-size: 0.688rem;
   border-bottom: 1px solid #f6f6f6;
   margin-bottom: 30px;
   color: rgb(175, 175, 175);
@@ -1483,7 +1480,7 @@ input {
 
 .contactButton {
   font-family: "Open Sans";
-  font-size: 11px;
+  font-size: 0.688rem;
   border: none;
   border-bottom: 1px solid #333333;
   background: none;

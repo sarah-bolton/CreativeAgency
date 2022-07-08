@@ -1,3 +1,49 @@
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    background-color: $white;
+    color: black;
+    z-index: 10;
+    &:focus {
+        left: 0;
+    }
+}
+
+// .slideOutNav {
+//     background-color: $primary;
+//     position: fixed;
+//     top: 0;
+//     left: -506px;
+//     height: 100vh;
+//     width: 100%;
+//     max-width: 506px;
+//     color: $solidWhite;
+//     font-family: $headingFont;
+//     padding: 35px 50px;
+//     transition: 0.75s;
+//     a {
+//         font-size: 1.6rem;
+//         font-family: $headingFont;
+//         line-height: 2.5rem;
+//         color: rgba($color: $solidWhite, $alpha: 1);
+//         transition: 0.3s;
+//         &:hover, &:focus {
+//             color: rgba($color: $solidWhite, $alpha: 0.5);
+//         }
+//     }
+
+// .menuClose {
+//     color: $solidWhite;
+//     font-size: 1.2rem;
+//     text-align: right;
+//     display: block;
+//     width: 100%;
+//     border: none;
+// }
+
+// skip link and slide-out navigation help from toy-box code along
+
 .navRight, .navLeft {
     color: $black;
     list-style: none;

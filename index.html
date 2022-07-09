@@ -19,25 +19,20 @@
     <header class="headerHome">
         <div class="wrapper">
 
-            <!-- slide out menu -->
-            <!-- <input type="checkbox" id="openSideMenu">
-            <label for="openSideMenu">
-                <i class="fa-solid fa-bars" aria-hidden="true">
-                <span class="sr-only"></span>
-                </i>
-            </label> -->
-
             <!-- slide out nav content -->
-			<div class="slideOutNav">
-				<button class="menuClose">x</button>
+            <ul id="mySideNav" class="sideNav">
+                <button class="closeBtn">&times;</button>
+                <li class="menuItem"><a href="./index.html">Home</a></li>
+                <li class="menuItem"><a href="./blog.html">Blog</a></li>
+                <li class="menuItem"><a href="#">Portfolio</a></li>
+                <li class="menuItem"><a href="#">Shop</a></li>
+                <li class="menuItem"><a href="./contact.html">Contact</a></li>
+                <li class="menuItem"><a href="#">Search</a></li>
+                <li class="menuItem"><a href="#">Shopping Cart</a></li>
+            </ul>
             
             <!-- main navigation -->
             <nav class="mainNav">
-                <div class="menuMobile">
-                    <div class="menuLine"></div>
-                    <div class="menuLine"></div>
-                    <div class="menuLine"></div>
-                </div>
                 <ul class="navLeft">
                     <li class="home"><a href="./index.html">Home</a></li>
                     <li class="blog"><a href="./blog.html">Blog</a></li>
@@ -45,7 +40,7 @@
                 </ul>
 
             <a href="./index.html" class="logo">
-                <h1>Creative</h1>
+                <button class="hamburgerMenu">&#9776;</button><h1>Creative</h1>
             </a>
             
                 <ul class="navRight">
@@ -273,5 +268,6 @@
         <h3 class="footer2H3">CREATIVE AGENCY</h3>
     </div>
 
+<script src="./script.js"></script>
 </body>
 </html>

@@ -23,6 +23,6 @@ closeBtn.addEventListener('click', function(event) {
 })
 
 // help from bootcamp notes,
-// https://www.codinglabweb.com/2021/04/responsive-side-navigation-bar-in-html.html
+// https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
 // &
 // https://www.w3schools.com/howto/howto_js_sidenav.asp

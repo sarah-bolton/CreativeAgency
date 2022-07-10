@@ -2,35 +2,42 @@
 
 .sectionOneHome {
     background-color: $sage;
+    min-height: 80vh;
 }
 
 .sectionOneImgs {
     position: relative;
-    padding-top: 170px;
-    margin: 0 auto;
+    top: -65px;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    margin-left: 30%;
 }
 
 .brandCircleD {
+    display: flex;
     position: absolute;
-    top: 80px;
-    left: 198px;
+    top: 122px;
+    left: -53px;
     z-index: 10;
-    width: 200px;
+    width: 180px;
 }
 
 .desktopImgD {
-    position: relative;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 40px;
     width: 350px;
-    margin: 0 auto;
+    padding-top: 170px;
+    margin-left: auto;
 }
 
 .brandingFlexContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 30px 0px 80px;
-    margin: 0 auto;
-    width: 70%;
+    padding: 30px 0px 50px;
 }
 
 .brandingFlexContainer H3 {
@@ -42,10 +49,7 @@
 .brandingP, .design {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
-    padding: 20px 0 0;
+    margin: 10px 60px;
 }
 
 .brandingP2, .designP {
@@ -92,12 +96,6 @@
 }
 
 // SECTION THREE
-
-// .bgImg {
-//     height: 100vh;
-//     z-index: -10;
-//     position: relative;
-// }
 
 .sectionThreeHome {
     background-image: url(../assets/home-4.jpeg);
@@ -241,6 +239,7 @@
 .portfolioButton {
     background-color: $white;
     border: none;
+    text-decoration: none;
     font-size: 0.75rem;
     padding: 15px 20px;
 }

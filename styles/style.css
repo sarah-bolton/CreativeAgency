@@ -332,7 +332,7 @@ nav {
 }
 .counter p {
   position: relative;
-  top: -13px;
+  top: -15px;
   left: 177px;
   width: 12px;
   height: 12px;
@@ -445,6 +445,7 @@ nav {
 .footerButton {
   background-color: #c3dab7;
   border: none;
+  text-decoration: none;
   height: 34px;
   width: 40px;
 }
@@ -452,6 +453,7 @@ nav {
 input {
   height: 35px;
   border: none;
+  border-radius: 0;
 }
 
 ::-webkit-input-placeholder {
@@ -576,6 +578,7 @@ input {
     right: 25px;
     font-size: 40px;
     margin-left: 50px;
+    cursor: pointer;
   }
 
   .navLeft, .navRight {
@@ -595,6 +598,26 @@ input {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .sectionOneImgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .brandingFlexContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .brandingP, .design {
+    width: 40%;
   }
 
   .footerFlexContainer {
@@ -671,24 +694,12 @@ input {
             align-items: center;
   }
 
-  .sectionOneImgs {
-    position: fixed;
+  .brandingP, .design {
+    width: 60%;
   }
 
-  .brandcircleImg {
-    position: relative;
-    height: auto;
-  }
-
-  .brandingFlexContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 90%;
+  .sectionOneHome .wrapper {
+    width: 100%;
   }
 
   .magazineImg {
@@ -706,14 +717,6 @@ input {
 
   .fa-angle-right {
     display: inline;
-  }
-
-  .sectionThreeGrid {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto;
-    background-color: #ffffff;
   }
 
   .optionInfo {
@@ -855,41 +858,52 @@ input {
 }
 .sectionOneHome {
   background-color: #c3dab7;
+  min-height: 80vh;
 }
 
 .sectionOneImgs {
   position: relative;
-  padding-top: 170px;
-  margin: 0 auto;
+  top: -65px;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  margin-left: 30%;
 }
 
 .brandCircleD {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
-  top: 80px;
-  left: 198px;
+  top: 122px;
+  left: -53px;
   z-index: 10;
-  width: 200px;
+  width: 180px;
 }
 
 .desktopImgD {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 40px;
   width: 350px;
-  margin: 0 auto;
+  padding-top: 170px;
+  margin-left: auto;
 }
 
 .brandingFlexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 0px 80px;
-  margin: 0 auto;
-  width: 70%;
+  padding: 30px 0px 50px;
 }
 
 .brandingFlexContainer H3 {
@@ -910,14 +924,7 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 40%;
-  padding: 20px 0 0;
+  margin: 10px 60px;
 }
 
 .brandingP2, .designP {
@@ -1152,6 +1159,7 @@ input {
 .portfolioButton {
   background-color: #ffffff;
   border: none;
+  text-decoration: none;
   font-size: 0.75rem;
   padding: 15px 20px;
 }
